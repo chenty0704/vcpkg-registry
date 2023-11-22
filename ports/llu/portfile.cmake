@@ -1,7 +1,10 @@
-vcpkg_from_git(
+vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
+
+vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
-        URL https://github.com/WolframResearch/LibraryLinkUtilities
-        REF 503f0bdb72450d6a1217bb5ad4c1c1e6722bb7ca)
+        REPO WolframResearch/LibraryLinkUtilities
+        REF 503f0bdb72450d6a1217bb5ad4c1c1e6722bb7ca
+        SHA512 5e404fac1f459603e17355cd5f30064fbbb3b1004a6ca7edadd75e66cf2dc09a722ab2843e5cdfd9b74759ba411661e120e87958630bc54d953ac51226506e6c)
 
 vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}")
