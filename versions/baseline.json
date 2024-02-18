@@ -1,0 +1,7 @@
+{
+    "default": {
+        "library-link-utilities": {"baseline": "1.0", "port-version": 0},
+        "llu": {"baseline": "3.2.0", "port-version": 0},
+        "system": {"baseline": "1.0", "port-version": 0}
+    }
+}
