@@ -1,0 +1,10 @@
+{
+    "name": "mdspan",
+    "version": "1.0",
+    "description": "Reference implementation of mdspan",
+    "homepage": "https://github.com/kokkos/mdspan",
+    "dependencies": [
+        {"name": "vcpkg-cmake", "host": true},
+        {"name": "vcpkg-cmake-config", "host": true}
+    ]
+}
